@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
     <title>Birth Day Calendar</title>
     </head>
 <body>
     <div class="container-fluid">
+        <div class="jumbotron">
         <form>
             <div class="form-floating mb-3">
                 <label for="Input">Birthday</label>
@@ -16,13 +18,14 @@
                 <input type="date" class="form-control" id="floatingInput" placeholder="Your birthday">
             </div>
             
-            <label for="GenderInput">Gender</label>
-             <select class="form-select" aria-label="Gender">
-             <option selected>Choose your gender</option>
-             <option value="2">Male</option>
-             <option value="3">Female</option>
+            <label for="GenderInput">Gender:</label>
+             <select class="form-select">
+                <option selected>Choose your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
           </select>
         </form>
+        </div>
     </div>
     
 </body>
