@@ -9,23 +9,25 @@
     <title>Birth Day Calendar</title>
     </head>
 <body>
-    <div class="container-fluid">
-        <div class="jumbotron">
-        <form>
-            <div class="form-floating mb-3">
-                <label for="Input">Birthday</label>
-                <label for="floatingInput">Birthday</label>
-                <input type="date" class="form-control" id="floatingInput" placeholder="Your birthday">
+    <div class="container-fluid container">
+        <div class="overlay">
+         <div class="column">
+            <form>
+                <div class="form-floating mb-3">
+                    <label for="Input">Birthday</label>
+                    <input type="date" class="form-control" id="birth-date" placeholder="Your birthday">
+                </div>
+                
+                <label for="GenderInput">Gender</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Choose your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+            </select>
+            <input class="btn btn-primary" type="submit" value="Submit">
+            </form>
             </div>
-            
-            <label for="GenderInput">Gender:</label>
-             <select class="form-select">
-                <option selected>Choose your gender</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-          </select>
-        </form>
-        </div>
+            </div>
     </div>
     
 </body>
