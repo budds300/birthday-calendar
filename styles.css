@@ -40,7 +40,13 @@ input[type=text], select, textarea {
     border: 2px solid #259AD5;
     color: #259AD5;
   }
- 
+  .column{
+      width: 50%;
+      margin: auto;
+      padding: 200px 0 0 0;
+  }
+  
+    }
   
 
   
