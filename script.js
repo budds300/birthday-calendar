@@ -9,4 +9,11 @@ form.addEventListener('submit',(e)=>{
         const month= parseInt(spitValues[1]);
         const day= parseInt(spitValues[2]);
         let a = Math.floor((14-month)/12);
+        let y = year-a;
+        let m= month + 12 * a-2;
+        let output= (day + y + Math.floor(y/100)+ Math.floor(year/400) + Math.floor(31 * m/12))% 7 ;
+        const dayArray=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        let maleNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+        let femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
        
+)
