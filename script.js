@@ -15,6 +15,8 @@ form.addEventListener('submit',(e)=>{
         const dayArray=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
         let maleNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
         let femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+        const listName= document.createElement("li");
+
         if (gender==="male"){
             alert(`You were born on ${dayArray[output]} and your Akan name is ${maleNames[output]}` );
         }
