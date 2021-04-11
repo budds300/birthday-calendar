@@ -30,7 +30,7 @@ input[type=text], select, textarea {
   input[type=submit] {
     
     color: white;
-    padding: 12px 20px;
+    padding: 12px 21px;
     border: none;
     cursor: pointer;
   }
