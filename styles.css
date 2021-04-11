@@ -51,7 +51,7 @@ input[type=text], select, textarea {
 color: white;
 font-size: 40px;
   }
-  #landing h1{
+  #landing>h1{
       font-size: 50px;;
       color: white;
       font-weight:700;
