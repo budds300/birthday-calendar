@@ -21,4 +21,4 @@ You can contribute by forking the project  and following the above steps to clon
 If you run into any problem in accessing or contributing or have a question about the project feel free to email me  budds300@gmail.com.
 
 ## License and Copyright
-Licensed under [MIT license]
+Licensed under [MIT license](LICENSE)
