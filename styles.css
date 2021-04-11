@@ -1,3 +1,4 @@
+/* landing */
 .container{
     background-image: url("david-clode-xpMSlWkfWgk-unsplash.jpg");
     position: absolute;
@@ -19,6 +20,7 @@
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
+/* form */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -49,7 +51,7 @@ input[type=text], select, textarea {
 color: white;
 font-size: 40px;
   }
-  .landing h1{
+  #git landing h1{
       font-size: 50px;;
       color: white;
       font-weight:700;
@@ -58,23 +60,34 @@ font-size: 40px;
       width:50%;
       margin: auto;
   }
-  .landing p{
+  #landing p{
       color: white;
       font-size:20px;
       font-weight:700;
       width:50%;
       margin: auto;
   }
+  /* about */
+  #about{
+      text-align: center;
+      color: white;
+      width:50%;
+      margin: auto;
+  }
+  #about p{
+      font-size: 20px;
+  }
+/*  */
   @media screen and (max-width: 400px){
     .container {
         height: 800px;
 
     }  
-    .landing{
+    #landing{
           width: 100%;
           margin: auto;
       }
-      .landing p{
+      #landing p{
           font-size: large;
       }
   }
